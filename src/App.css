@@ -1,0 +1,29 @@
+/* you can improve this UI based on your creativity i just added simple structure */
+.main-wrapper {
+  background-color: #343541;
+  height: 100vh;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-wrapper {
+  position: relative;
+  margin-top: 50px;
+  padding: 40px;
+  background-color: wheat;
+}
+.btn-primary.add-button {
+  width: 100%;
+  margin: 20px 0;
+}
+.todo-list .list-group .list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+.todo-list .list-group {
+  margin-bottom: 10px;
+}
+.line-through label {
+  text-decoration: line-through;
+}
